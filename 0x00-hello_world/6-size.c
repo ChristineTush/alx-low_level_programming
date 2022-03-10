@@ -11,8 +11,8 @@ int main(void)
 	char d;
 	float e;
 
-	printf("Size of int: %lu byte(s)\n",size of(a));
-	printf("Size of double: %lu byte(s)\n",size of(b));
-	printf("Size of char: %lu byte\n", size of(c));
-	printf("Size of a float: %lu byte(s)\n",size of(d));
+	printf("Size of int: %lu byte(s)\n",sizeof(a));
+	printf("Size of double: %lu byte(s)\n",sizeof(b));
+	printf("Size of char: %lu byte\n", sizeof(c));
+	printf("Size of a float: %lu byte(s)\n",sizeof(d));
         return (0);
