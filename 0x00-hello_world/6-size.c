@@ -7,12 +7,13 @@
 int main(void)
 {
         int a;
-	double c;
-	char d;
-	float e;
+	double b;
+	char c;
+	float d;
 
 	printf("Size of int: %lu byte(s)\n",sizeof(a));
 	printf("Size of double: %lu byte(s)\n",sizeof(b));
 	printf("Size of char: %lu byte\n", sizeof(c));
 	printf("Size of a float: %lu byte(s)\n",sizeof(d));
         return (0);
+}
