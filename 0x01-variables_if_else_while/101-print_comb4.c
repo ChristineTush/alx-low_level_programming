@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - print numbers between 012 to 789.
  *
  * return: Always 0 (Success)
  */
-int main(void)
+void main(void)
 {
 	int i, e, g;
 
