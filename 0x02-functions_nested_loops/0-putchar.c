@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 /**
  * main - Function main entry
@@ -10,13 +10,12 @@
 
 int main(void)
 {
-	char s[9] = "_putchar";
-	int i = 0;
+	char word[8] = "_putchar";
+	int i;
 
-	while (i < 8)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(s[i]);
-		i++;
+		_putchar(word[i]);
 	}
 	_putchar('\n');
 
